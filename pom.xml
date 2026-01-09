@@ -124,15 +124,6 @@
                             <version>0.2.0</version>
                         </path>
                     </annotationProcessorPaths>
-
-                        <excludes>
-                            <exclude>**/api/**</exclude>
-                            <exclude>**/handler/**</exclude>
-                            <exclude>**/*usercase*</exclude>
-                            <exclude>**/*gateway*</exclude>
-                            <exclude>**/*persistence*</exclude>
-                        </excludes>
-
                 </configuration>
             </plugin>
 
