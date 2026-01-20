@@ -1,6 +1,6 @@
 package br.com.fiap.poastech.soat.techchallenge.model.domain;
 
-import br.com.fiap.postech.soat.techchallenge.model.domain.Customer;
+import br.com.fiap.postech.soat.techchallenge.domain.model.Customer;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

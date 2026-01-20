@@ -1,4 +1,4 @@
-package br.com.fiap.postech.soat.techchallenge.model.exceptions;
+package br.com.fiap.postech.soat.techchallenge.domain.exceptions;
 
 public class InvalidNameException extends RuntimeException {
     public InvalidNameException(String message) {

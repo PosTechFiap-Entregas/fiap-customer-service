@@ -2,11 +2,11 @@ package br.com.fiap.poastech.soat.techchallenge.service;
 
 import br.com.fiap.postech.soat.techchallenge.application.exceptions.CustomerAlreadyExistsException;
 import br.com.fiap.postech.soat.techchallenge.application.exceptions.NotFoundException;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
-import br.com.fiap.postech.soat.techchallenge.model.mapper.CustomerMapper;
-import br.com.fiap.postech.soat.techchallenge.persistence.CustomerEntity;
-import br.com.fiap.postech.soat.techchallenge.persistence.CustomerRepository;
-import br.com.fiap.postech.soat.techchallenge.service.CustomerService;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.domain.mapper.CustomerMapper;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.persistence.CustomerEntity;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.persistence.CustomerRepository;
+import br.com.fiap.postech.soat.techchallenge.application.service.CustomerService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentMatchers;

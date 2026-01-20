@@ -1,6 +1,6 @@
 package br.com.fiap.poastech.soat.techchallenge.model.dto.response;
 
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

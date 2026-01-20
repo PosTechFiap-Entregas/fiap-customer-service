@@ -1,10 +1,10 @@
 package br.com.fiap.postech.soat.techchallenge.application.controller;
 
-import br.com.fiap.postech.soat.techchallenge.application.api.CustomerAPI;
-import br.com.fiap.postech.soat.techchallenge.model.dto.request.CreateCustomerRequest;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
-import br.com.fiap.postech.soat.techchallenge.model.mapper.CustomerResponseMapper;
-import br.com.fiap.postech.soat.techchallenge.service.CustomerService;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.api.CustomerAPI;
+import br.com.fiap.postech.soat.techchallenge.application.dto.request.CreateCustomerRequest;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.domain.mapper.CustomerResponseMapper;
+import br.com.fiap.postech.soat.techchallenge.application.service.CustomerService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,8 @@
 package br.com.fiap.poastech.soat.techchallenge.model.mapper;
 
-import br.com.fiap.postech.soat.techchallenge.model.domain.Customer;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
-import br.com.fiap.postech.soat.techchallenge.model.mapper.CustomerResponseMapper;
+import br.com.fiap.postech.soat.techchallenge.domain.model.Customer;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.domain.mapper.CustomerResponseMapper;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

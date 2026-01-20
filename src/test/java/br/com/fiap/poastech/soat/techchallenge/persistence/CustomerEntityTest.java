@@ -1,6 +1,6 @@
 package br.com.fiap.poastech.soat.techchallenge.persistence;
 
-import br.com.fiap.postech.soat.techchallenge.persistence.CustomerEntity;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.persistence.CustomerEntity;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
