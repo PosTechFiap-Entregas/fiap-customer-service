@@ -1,10 +1,10 @@
 package br.com.fiap.poastech.soat.techchallenge.application.controller;
 
 import br.com.fiap.postech.soat.techchallenge.application.controller.CustomerController;
-import br.com.fiap.postech.soat.techchallenge.model.dto.request.CreateCustomerRequest;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
-import br.com.fiap.postech.soat.techchallenge.model.mapper.CustomerResponseMapper;
-import br.com.fiap.postech.soat.techchallenge.service.CustomerService;
+import br.com.fiap.postech.soat.techchallenge.application.dto.request.CreateCustomerRequest;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.domain.mapper.CustomerResponseMapper;
+import br.com.fiap.postech.soat.techchallenge.application.service.CustomerService;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatchers;
 import org.mockito.InjectMocks;

@@ -1,11 +1,11 @@
-package br.com.fiap.postech.soat.techchallenge.service;
+package br.com.fiap.postech.soat.techchallenge.application.service;
 
 import br.com.fiap.postech.soat.techchallenge.application.exceptions.CustomerAlreadyExistsException;
 import br.com.fiap.postech.soat.techchallenge.application.exceptions.NotFoundException;
-import br.com.fiap.postech.soat.techchallenge.model.mapper.CustomerMapper;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
-import br.com.fiap.postech.soat.techchallenge.persistence.CustomerEntity;
-import br.com.fiap.postech.soat.techchallenge.persistence.CustomerRepository;
+import br.com.fiap.postech.soat.techchallenge.domain.mapper.CustomerMapper;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.persistence.CustomerEntity;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.persistence.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,9 @@
 package br.com.fiap.poastech.soat.techchallenge.model.mapper;
 
-import br.com.fiap.postech.soat.techchallenge.model.domain.Customer;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
-import br.com.fiap.postech.soat.techchallenge.model.mapper.CustomerMapper;
-import br.com.fiap.postech.soat.techchallenge.persistence.CustomerEntity;
+import br.com.fiap.postech.soat.techchallenge.domain.model.Customer;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.domain.mapper.CustomerMapper;
+import br.com.fiap.postech.soat.techchallenge.infraestructure.persistence.CustomerEntity;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;

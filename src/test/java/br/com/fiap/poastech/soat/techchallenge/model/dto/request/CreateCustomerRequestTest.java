@@ -1,6 +1,6 @@
 package br.com.fiap.poastech.soat.techchallenge.model.dto.request;
 
-import br.com.fiap.postech.soat.techchallenge.model.dto.request.CreateCustomerRequest;
+import br.com.fiap.postech.soat.techchallenge.application.dto.request.CreateCustomerRequest;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

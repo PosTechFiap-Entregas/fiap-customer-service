@@ -1,4 +1,4 @@
-package br.com.fiap.postech.soat.techchallenge.persistence;
+package br.com.fiap.postech.soat.techchallenge.infraestructure.persistence;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

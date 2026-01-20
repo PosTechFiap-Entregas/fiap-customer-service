@@ -1,4 +1,4 @@
-package br.com.fiap.postech.soat.techchallenge.model.exceptions;
+package br.com.fiap.postech.soat.techchallenge.domain.exceptions;
 
 public class InvalidPhoneException extends RuntimeException {
     public InvalidPhoneException(String message) {

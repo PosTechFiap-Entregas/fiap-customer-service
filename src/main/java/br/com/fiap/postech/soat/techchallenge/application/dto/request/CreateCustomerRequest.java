@@ -1,4 +1,4 @@
-package br.com.fiap.postech.soat.techchallenge.model.dto.request;
+package br.com.fiap.postech.soat.techchallenge.application.dto.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Digits;

@@ -1,7 +1,7 @@
-package br.com.fiap.postech.soat.techchallenge.application.api;
+package br.com.fiap.postech.soat.techchallenge.infraestructure.api;
 
-import br.com.fiap.postech.soat.techchallenge.model.dto.request.CreateCustomerRequest;
-import br.com.fiap.postech.soat.techchallenge.model.dto.response.CustomerResponse;
+import br.com.fiap.postech.soat.techchallenge.application.dto.request.CreateCustomerRequest;
+import br.com.fiap.postech.soat.techchallenge.application.dto.response.CustomerResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

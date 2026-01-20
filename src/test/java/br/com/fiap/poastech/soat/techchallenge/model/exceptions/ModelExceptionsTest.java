@@ -1,8 +1,8 @@
 package br.com.fiap.poastech.soat.techchallenge.model.exceptions;
 
-import br.com.fiap.postech.soat.techchallenge.model.exceptions.InvalidEmailException;
-import br.com.fiap.postech.soat.techchallenge.model.exceptions.InvalidNameException;
-import br.com.fiap.postech.soat.techchallenge.model.exceptions.InvalidPhoneException;
+import br.com.fiap.postech.soat.techchallenge.domain.exceptions.InvalidEmailException;
+import br.com.fiap.postech.soat.techchallenge.domain.exceptions.InvalidNameException;
+import br.com.fiap.postech.soat.techchallenge.domain.exceptions.InvalidPhoneException;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;

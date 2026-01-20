@@ -1,4 +1,4 @@
-package br.com.fiap.postech.soat.techchallenge.model.dto.response;
+package br.com.fiap.postech.soat.techchallenge.application.dto.response;
 
 import java.util.UUID;
 
